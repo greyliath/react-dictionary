@@ -1,8 +1,20 @@
-.App header {
-  text-align: center;
-  margin: 30px 0;
+.App {
+  padding: 60px 0 100px;
+  max-width: 960px;
+  margin: 0 auto;
 }
+
+.App header {
+  margin: 30px 0;
+  text-align: center;
+}
+
 .App footer {
   text-align: center;
-  margin: 30px 0;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.App footer a {
+  color: #4b348363;
 }

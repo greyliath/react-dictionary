@@ -9,7 +9,7 @@ function App() {
           <h1>React Dictionary App</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset"/>
         </main>
         <footer>
           <small>
