@@ -13,13 +13,12 @@ export default function Meaning(props) {
               <strong>Definition:</strong> {definition.definition}
               <br />
               <strong>Example:</strong> <em>{definition.example}</em>
-              <Synonyms synonyms={definition.synonyms} />
-              <Synonyms synonyms={props.meaning.synonyms} />
             </p>
+            <Synonyms synonyms={definition.synonyms} />
+            <Synonyms synonyms={props.meaning.synonyms} />
           </div>
         );
       })}
     </div>
   );
 }
-
